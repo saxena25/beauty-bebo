@@ -1,0 +1,445 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#fixed-btn{
+  position: fixed;
+  bottom: 50px;
+  right: 70px;
+  background-color: rgb(224, 5, 165);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#home-btn{
+  margin: auto;
+  display: flex;
+  padding: 7px 0 0 0;
+}
+
+#top-ad{
+  width: 100%;
+}
+
+#top-ad a img{
+  width: 100%;
+}
+
+.btn-outline-success{
+  background-color: rgb(224, 5, 165);
+  color: #fff;
+}
+
+.btn-outline-success:hover{
+  background-color: rgb(189, 5, 140);
+}
+
+.navbar{
+  justify-content: space-around;
+}
+
+#navbar-full{
+  width: 100%;
+  background-color: rgb(224, 5, 165);
+  position: sticky;
+  top: 0px;
+  padding: 6px;
+}
+
+.btn-secondary{
+  background-color: rgb(224, 5, 165);
+  border: 0;
+}
+
+.btn-secondary:hover{
+  background-color: rgb(189, 5, 140);
+}
+
+#navbar{
+  display: flex;
+  width: 65%;
+  margin: auto;
+}
+
+.navbar-collapse{
+  flex-grow: 0;
+}
+
+.navbar .container-fluid{
+  justify-content: center;
+}
+
+.nav-link{
+  border: 1px solid #dee2e6;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.375rem 0.75rem;
+}
+
+.menu-lists{
+  display: flex;
+}
+
+#container{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  border: 1px solid #dee2e6;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#left-box{
+  width: 30%;
+}
+
+#right-box{
+  width: 70%;
+}
+
+#all-btns{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#all-btns button{
+  border: none;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.slide{
+  display: none;
+}
+
+.slide.active{
+  display: block;
+}
+
+.slide.active > img{
+  width: 100%;
+  padding: 10px 0 20px;
+}
+
+/* -----DEAL OF THE WEEK PRODUCTS---- */
+
+#dealoftheweek{
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+#dealoftheweek h1{
+  font-size: 16px;
+}
+
+#items{
+  display: flex;
+
+  border: 1px solid #dee2e6;
+}
+
+
+.products{
+  border: 1px solid #dee2e6;
+  text-align: center;
+  width: 300px;
+  height: 350px;
+}
+
+.products p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.products img{
+  width: 70%;
+  height: 200px;
+  margin: 10px 10px 0 10px;
+}
+
+.products-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.products-btn button{
+  background-color: rgb(224, 5, 165);
+  color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px 15px 3px 15px;
+  font-size: 14px;
+}
+
+.products-btn button img{
+  width: 20px;
+  height: 20px;
+}
+
+.mrp{
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.price{
+  color: rgb(224, 5, 165);
+  font-weight: 600;
+}
+
+.discount{
+  color: green;
+  font-weight: 500;
+}
+
+/* -----BANNER----- */
+
+#banner{
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#banner img{
+  width: 100%;
+  margin: auto;
+}
+
+/* -----CATEGORIES AND PRODUCTS----- */
+
+#category-items{
+  width: 65%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#item-names ul{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.items{
+  border: 1px solid #dee2e6;
+  padding: 10px 52px 0 52px;
+}
+
+
+
+.items:hover{
+  background-color: rgb(224, 5, 165);
+  cursor: pointer;
+}
+
+.items p:hover{
+  color: white;
+}
+
+.items img{
+  width: 30px;
+  height: 30px;
+}
+
+.items p{
+  padding-top: 5px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #666666;
+}
+
+#item-products{
+  width: 65%;
+  margin-top: 0;
+  /* margin: auto; */
+}
+
+#makeup-products{
+  display: flex;
+  margin-top: 0;
+}
+
+.itemProducts{
+  border: 1px solid #dee2e6;
+  text-align: center;
+  width: 285px;
+  height: 500px;
+}
+
+.product-img{
+  width: 280px;
+  padding: 5px;
+}
+
+.itemProducts p{
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+  padding: 0 10px 0 10px;
+}
+
+.garnier{
+  height: 320px;
+}
+
+.cart-btn{
+  background-color: rgb(224, 5, 165);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  color:#fff;
+}
+
+.like-btn{
+  background-color: rgb(224, 5, 165);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  margin-left: 10px;
+}
+
+.addtocart-btns{
+  margin: 15px;
+}
+
+#skin-products{
+  display: flex;
+}
+
+.skin-img{
+  width: 250px;
+}
+
+#hair-products{
+  display: flex;
+}
+
+/* ----PONDS BANNER---- */
+
+#banner-ponds{
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#banner-ponds a img{
+  width: 100%;
+}
+
+/* ----UPPER FOOTER----- */
+
+#upper-footer{
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#upper-footer h2{
+  color: #666666;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#upper-footer p{
+  font-size: 12px;
+  color: #666666;
+}
+
+#footer{
+  width: 100%;
+  background-color: #232323;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+}
+
+.links h3{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.links p{
+  color: #AAAAAA;
+  font-size: 12px;
+}
+
+.links a{
+  color: #AAAAAA;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.links a:hover{
+  color: rgb(224, 5, 165);
+}
+
+#footer-links{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+#social-logo a{
+  margin-right: 5px;
+}
+
+#social-logo a img{
+  background-color: rgb(224, 5, 165);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+hr{
+  color: #fff;
+  width: 65%;
+  margin: auto;
+  opacity: 2;
+  margin-bottom: 10px;
+}
+
+/* ---BOTTOM FOOTER--- */
+
+#bottom-footer{
+  width: 65%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  height: 70px;
+}
+
+#left-footer img{
+  width: 300px;
+}
+
+#right-footer p{
+  color: #fff;
+  padding-top: 7px;
+}
+
+#right-footer{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* -----RESPONSIVE LAYOUT----- */
+
